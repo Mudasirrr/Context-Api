@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Child from './Child';
+import Child2 from './Child2';
 
 function Parent(props) {
   return (
@@ -7,7 +8,8 @@ function Parent(props) {
     <div className="Parent">
 
     <h1>Parent compon............</h1>
-      <Child num={props.num}/>
+      <Child/>
+      <Child2/>
     </div>
   );
 }

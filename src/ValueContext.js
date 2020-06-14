@@ -6,8 +6,9 @@ import React from 'react';
  * 
  *  2.Consumer
  *      to use in a component use consumer, consume the value
+ * =>It is a sort of global variable
  */
-const ValueContext=React.createContext(45);
+const ValueContext=React.createContext(45,()=>{});
 
 
 export default ValueContext;
